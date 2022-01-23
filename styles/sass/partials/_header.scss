@@ -1,7 +1,135 @@
-.imgContainer {
-  color: aqua;
+.contact nav {
+  background-color: $quinary;
+  max-width: 100%;
 }
 
-header {
-  background-color: cadetblue;
+.navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: $primary;
+  margin: 0 150px;
+  padding: 0;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation li:nth-child(3) a {
+  font-size: 42px;
+  margin: 10px 30px;
+}
+.navigation li a {
+  color: $primary;
+  font-family: $headingFont;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.contact img {
+  max-width: 100%;
+  height: 260px;
+  margin: 20px 0;
+}
+
+.contact {
+  position: relative;
+}
+.contact h1 {
+  font-size: 80px;
+  font-family: $headingFont;
+  font-weight: bold;
+  position: absolute;
+  line-height: 92px;
+  letter-spacing: 1px;
+  left: 125px;
+  bottom: -90px;
+}
+
+.contactInfo {
+  margin: 80px 0 0 0;
+}
+
+.contactInfo .wrapper {
+  display: flex;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfo {
+  background-color: $senary;
+}
+
+.contactDetails {
+  background-color: white;
+  padding: 20px 50px 20px 20px;
+  height: 50%;
+}
+
+.social {
+  color: $quaternary;
+  font-size: 20px;
+  margin-left: 80px;
+}
+.social i {
+  margin: 0 10px 0 10px;
+}
+
+.social p {
+  padding: 0;
+  margin: 5px 0;
+  font-family: $bodyFont;
+  font-size: 20px;
+}
+
+.contactForm {
+  margin-left: 50px;
+  font-family: $bodyFont;
+  font-size: 20px;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 15px;
+  border: 0;
+  width: 48.5%;
+}
+input[type="text"] {
+  margin-right: 10px;
+}
+
+form textarea {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: none;
+}
+
+button {
+  font-family: $headingFont;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: $secondary;
+  border: none;
+}
+
+body {
+  background-color: $senary;
+}
+
+footer {
+  text-align: center;
+  background-color: $primary;
+  color: $senary;
+  margin-top: 10px;
+  padding: 3px;
 }

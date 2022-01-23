@@ -195,15 +195,164 @@ input::-moz-focus-inner {
 }
 
 .wrapper {
-  max-width: 1080px;
+  max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
 
-.imgContainer {
-  color: aqua;
+.contact nav {
+  background-color: #b9dde7;
+  max-width: 100%;
 }
 
-header {
-  background-color: cadetblue;
+.navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #171717;
+  margin: 0 150px;
+  padding: 0;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation li:nth-child(3) a {
+  font-size: 42px;
+  margin: 10px 30px;
+}
+
+.navigation li a {
+  color: #171717;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.contact img {
+  max-width: 100%;
+  height: 260px;
+  margin: 20px 0;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact h1 {
+  font-size: 80px;
+  font-family: "Oswald";
+  font-weight: bold;
+  position: absolute;
+  line-height: 92px;
+  letter-spacing: 1px;
+  left: 125px;
+  bottom: -90px;
+}
+
+.contactInfo {
+  margin: 80px 0 0 0;
+}
+
+.contactInfo .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactInfo {
+  background-color: #f6f6f6;
+}
+
+.contactDetails {
+  background-color: white;
+  padding: 20px 50px 20px 20px;
+  height: 50%;
+}
+
+.social {
+  color: #227284;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.social i {
+  margin: 0 10px 0 10px;
+}
+
+.social p {
+  padding: 0;
+  margin: 5px 0;
+  font-family: "Cabin";
+  font-size: 20px;
+}
+
+.contactForm {
+  margin-left: 50px;
+  font-family: "Cabin";
+  font-size: 20px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+input[type=text],
+input[type=email] {
+  padding: 15px;
+  border: 0;
+  width: 48.5%;
+}
+
+input[type=text] {
+  margin-right: 10px;
+}
+
+form textarea {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: none;
+}
+
+button {
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f38d8d;
+  border: none;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+footer {
+  text-align: center;
+  background-color: #171717;
+  color: #f6f6f6;
+  margin-top: 10px;
+  padding: 3px;
 }
