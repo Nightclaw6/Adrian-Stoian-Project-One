@@ -356,3 +356,232 @@ footer {
   margin-top: 10px;
   padding: 3px;
 }
+
+.blog nav {
+  background-color: #b9dde7;
+  max-width: 100%;
+}
+
+.blog ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #171717;
+  margin: 0 150px;
+  padding: 0;
+}
+
+.blog li {
+  list-style-type: none;
+}
+
+.blog li:nth-child(3) a {
+  font-size: 42px;
+  margin: 10px 30px;
+}
+
+.blog li a {
+  color: #171717;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.blog img {
+  max-width: 100%;
+  height: 260px;
+  margin: 20px 0;
+}
+
+.blog {
+  position: relative;
+}
+
+.blog h1 {
+  font-size: 80px;
+  font-family: "Oswald";
+  font-weight: bold;
+  position: absolute;
+  line-height: 92px;
+  letter-spacing: 1px;
+  left: 125px;
+  bottom: -70px;
+}
+
+.blog img {
+  margin-top: 0;
+}
+
+.blogPost .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blogPost {
+  margin-top: 60px;
+}
+
+.leftContainer img {
+  max-width: 100%;
+}
+
+.leftContainer {
+  width: 35%;
+}
+
+.leftContainer h4 {
+  font-family: "Oswald";
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.aboutHarper {
+  background-color: white;
+  padding: 40px 25px;
+}
+
+.recentPosts h4 {
+  font-family: "Oswald";
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.recentPosts {
+  margin-top: 20px;
+  background-color: white;
+  padding: 40px 25px;
+}
+
+.rightContainer {
+  width: 70%;
+  margin-left: 25px;
+}
+
+.harperPost h2 {
+  font-family: "Oswald";
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+.harperPost p {
+  font-family: "Cabin";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.harperPost {
+  border-bottom: 5px solid #227284;
+  padding-bottom: 40px;
+  background-color: white;
+  padding: 40px;
+}
+
+.comment1,
+.comment2 {
+  padding: 40px 25px;
+  background-color: white;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog body {
+  background-color: #f6f6f6;
+}
+
+.comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.comment1 p,
+.comment2 p {
+  margin-left: 20px;
+  font-family: "Cabin";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.comment2 {
+  border-bottom: 5px solid #227284;
+}
+
+.blogForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Cabin";
+  font-size: 20px;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.blogForm input[type=text],
+input[type=email] {
+  padding: 15px;
+  border: 0;
+}
+
+.blogForm input[type=text] {
+  margin-right: 15px;
+}
+
+.blogForm textarea {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: none;
+}
+
+.blogForm {
+  font-family: "Cabin";
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+button {
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f38d8d;
+  border: none;
+}
+
+.blogForm .formDetails {
+  margin-top: 20px;
+}
