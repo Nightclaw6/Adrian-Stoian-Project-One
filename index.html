@@ -13,7 +13,7 @@
     <title>Harper</title>
 </head>
 <body>
-    <header>
+    <header class="main">
         <div class="wrapper">
             <nav>
                 <ul>
@@ -24,19 +24,18 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <h2 class="everyDay">EVERYDAY LIFE WITH</h2>
             <h1>HARPER</h1>
-            <div class="imgContainer">
-                <img src="./assets/home-image-1.jpg" alt="Girl with baloons">;
-                <img src="./assets/circle-text.png" alt="Circled text">
-            </div>
+            <img class="img1" src="./assets/home-image-1.jpg" alt="Girl with baloons">;
+            <img class="img2" src="./assets/circle-text.png" alt="Circled text">
         </div>
     </header>
     <section class="introduction">
         <div class="wrapper">
             <div class="textContainer">
-                <h2>Who's Harper</h2>
+                <h2>WHO'S HARPER</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium distinctio dolores officiis enim deserunt saepe ipsam blanditiis iusto, exercitationem ad voluptas repudiandae dolor quam nulla magnam ipsa expedita accusamus quaerat.</p>
-                <button>Find out more</button>
+                <button>FIND OUT MORE</button>
             </div>
         </div>
     </section>
@@ -45,30 +44,52 @@
             <img src="./assets/home-image-2.jpg" alt="Buildings">
         </div>
     </section>
-    <section class="navigation">
+    <section class="sectionNav">
         <div class="wrapper">
-            <div class="navOptions">
+            <div class="navLeft">
                 <div class="option1">
-                    <i class="fas fa-image"></i>
-                    <h3>Photos</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fas fa-image fa-stack-1x"></i>
+                    </span>
+                    <div class="navText">
+                        <h3>PHOTOS</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
+                    </div> 
                 </div>
                 <div class="option2">
-                    <i class="fas fa-user"></i>
-                    <h3>About</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
-                </div>
-                <div class="option3">
-                    <i class="fas fa-tv"></i>
-                    <h3>Blog</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
-                </div>
-                <div class="option4">
-                    <i class="fas fa-phone"></i>
-                    <h3>Contact Me</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-tv fa-stack-1x"></i>
+                    </span>
+                    <div class="navText">
+                        <h3>BLOG</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
+                    </div>
                 </div>
             </div>
+            <div class="navRight">
+                <div class="option3">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fas fa-user fa-stack-1x"></i>
+                    </span>
+                    <div class="navText">
+                        <h3>ABOUT</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
+                    </div>
+                </div>
+                <div class="option4">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fas fa-phone fa-stack-1x"></i>
+                    </span>
+                    <div class="navText">
+                        <h3>CONTACT ME</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
+                    </div>
+                </div>
+            </div>    
         </div>
     </section>
     <section class="travel">
@@ -77,7 +98,7 @@
                 <img src="./assets/home-image-3.jpg" alt="Surfer">
             </div>
             <div class="textContainer">
-                <h3>Harper's travels</h3>
+                <h3>HARPER'S TRAVELS</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius cum repellat quidem, aspernatur aut necessitatibus dolor earum, error quo inventore numquam impedit dolorem minus consectetur corporis! Nisi voluptatibus veniam delectus?</p>
                 <button>Read More</button>
             </div>
@@ -86,7 +107,7 @@
     <section class="hobbies">
         <div class="wrapper">
             <div class="textContainer">
-                <h3>Favourite Things</h3>
+                <h3>FAVOURITE THINGS</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius cum repellat quidem, aspernatur aut necessitatibus
                     dolor earum, error quo inventore numquam impedit dolorem minus consectetur corporis! Nisi voluptatibus veniam
                     delectus?</p>
@@ -103,10 +124,8 @@
                 <img src="./assets/home-image-5.jpg" alt="Surfer">
             </div>
             <div class="textContainer">
-                <h3>Harper's journey</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius cum repellat quidem, aspernatur aut necessitatibus
-                    dolor earum, error quo inventore numquam impedit dolorem minus consectetur corporis! Nisi voluptatibus veniam
-                    delectus?</p>
+                <h3>HARPER'S JOURNEY</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae incidunt rerum quisquam necessitatibus qui fuga veritatis praesentium nulla non esse minima, doloremque ipsum, iure, architecto in. Voluptate aliquid eum eos expedita quasi facilis reiciendis sequi. Cum, a voluptate dignissimos voluptatem reprehenderit quae asperiores doloribus fuga officiis totam earum magni at veritatis minus quidem repellendus pariatur fugit, harum eos velit. Rerum!</p>
                 <button>Read More</button>
             </div>
         </div>
@@ -115,11 +134,7 @@
         <div class="wrapper">
             <div class="imgContainer">
                 <img src="./assets/home-image-6.jpg" alt="">
-            </div>
-            <div class="imgContainer">
                 <img src="./assets/home-image-7.jpg" alt="">
-            </div>
-            <div class="imgContainer">
                 <img src="./assets/home-image-8.jpg" alt="">
             </div>
         </div>

@@ -1,1 +1,459 @@
-// Contact Page
+// Who's Harper
+.introduction .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 50px 30px 80px 653px;
+}
+
+.introduction h2 {
+  font-family: $headingFont;
+  font-weight: bold;
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 32px;
+}
+
+.introduction button {
+  width: 220px;
+  font-family: $headingFont;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: $secondary;
+  border: none;
+  padding: 10px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+// Nav Options
+.option1,
+.option2,
+.option3,
+.option4 {
+  display: flex;
+}
+
+.sectionNav .wrapper {
+  display: flex;
+}
+
+.navText {
+  margin-left: 20px;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.fa.fa-circle-thin:before {
+  content: "";
+  margin-left: -10px;
+  background-color: $quinary;
+  border-radius: 50%;
+  color: $quinary;
+}
+
+.navText h3 {
+  font-family: $headingFont;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.navText p {
+  font-family: $bodyFont;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+span {
+  margin-top: 35px;
+}
+
+.sectionNav {
+  margin: 100px;
+  background-color: $senary;
+}
+
+// Travel section
+
+.travel .wrapper {
+  display: flex;
+  background-color: white;
+  position: relative;
+}
+
+.travel h3 {
+  font-family: $headingFont;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.travel .textContainer p {
+  font-family: $bodyFont;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.travel .imgContainer {
+  position: absolute;
+  left: 105px;
+  top: -40px;
+}
+
+.travel .textContainer {
+  margin-left: 48%;
+  padding: 100px;
+}
+
+.travel img {
+  max-width: 100%;
+  box-shadow: 20px 20px $tertiary, -120px 20px $tertiary;
+}
+
+.travel .imgContainer,
+.travel .textContainer {
+  width: 50%;
+}
+
+.travel .textContainer button {
+  width: 220px;
+  font-family: $headingFont;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: $secondary;
+  border: none;
+  padding: 10px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+// Favourite Things Section
+
+.hobbies .wrapper {
+  display: flex;
+  background-color: white;
+  position: relative;
+}
+
+.hobbies h3 {
+  font-family: $headingFont;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hobbies .textContainer p {
+  font-family: $bodyFont;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.hobbies .imgContainer {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+}
+
+.hobbies .textContainer {
+  margin-right: 48%;
+  padding: 0 100px 100px 100px;
+}
+
+.hobbies img {
+  max-width: 100%;
+  box-shadow: 20px 20px $quinary, 120px 20px $quinary;
+}
+
+.hobbies .imgContainer,
+.hobbies .textContainer {
+  width: 50%;
+}
+
+.hobbies .textContainer button {
+  width: 220px;
+  font-family: $headingFont;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: $secondary;
+  border: none;
+  padding: 10px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  margin-left: 325px;
+}
+
+// Harper's Journey Section
+
+.journey .wrapper {
+  display: flex;
+}
+
+.journey .imgContainer {
+  width: 40%;
+  margin-top: 150px;
+}
+.journey img {
+  box-shadow: 18px 18px $quaternary;
+  margin-left: 120px;
+}
+
+.journey .textContainer {
+  width: 60%;
+  margin: 95px 100px 10 px 50px;
+}
+
+.journey h3 {
+  font-family: $headingFont;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.journey .textContainer p {
+  font-family: $bodyFont;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.journey .textContainer button {
+  width: 220px;
+  font-family: $headingFont;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: $secondary;
+  border: none;
+  padding: 10px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+// Gallery Section
+
+.gallery .wrapper .imgContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+}
+.gallery img {
+  padding: 0 20px;
+}
+
+.gallery {
+  background-color: white;
+}
+
+// Media Queries
+
+@media (max-width: 500px) {
+  // Blog Section
+
+  .blogPost .wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .harperPost {
+    padding: 0;
+  }
+
+  .blogForm input[type="text"],
+  input[type="email"] {
+    padding: 15px;
+    border: 0;
+    width: calc(100% -70px);
+  }
+  .aboutHarper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blogPost .leftContainer {
+    width: 100%;
+  }
+
+  .blogPost .rightContainer {
+    width: 100%;
+  }
+  .leftContainer h4 {
+    text-align: center;
+  }
+  .recentPosts ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+  }
+
+  // Contact Section
+
+  .contactInfo .wrapper {
+    flex-direction: column;
+  }
+  .contact .wrapper {
+    position: relative;
+  }
+  .contact h1 {
+    font-size: 65px;
+    position: absolute;
+    left: 60px;
+    bottom: -65px;
+  }
+  .contactInfo .contactForm {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .contactDetails .social {
+    margin: 0;
+    text-align: center;
+  }
+
+  // Main Page
+
+  .main .wrapper {
+    display: flex;
+    flex-direction: column;
+    // position: relative;
+  }
+  .main {
+    height: 100vh;
+  }
+  .main .everyDay {
+    display: block;
+    margin-top: 40px;
+    color: white;
+  }
+  .main .img1 {
+    max-width: 100%;
+    box-shadow: none;
+    // position: absolute;
+    top: 155%;
+    left: 0;
+  }
+
+  .main .img2 {
+    visibility: hidden;
+  }
+  .main h1 {
+    // position: absolute;
+    top: 110px;
+    left: 0;
+    font-family: $headingFont;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  .introduction .textContainer {
+    margin: 10px 0;
+  }
+  .introduction p {
+    margin: 10px 10px;
+  }
+
+  .mainImage img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .sectionNav .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionNav {
+    margin: 20px;
+  }
+
+  .travel .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .travel img {
+    box-shadow: none;
+    width: 100%;
+  }
+  .travel .imgContainer {
+    width: 100%;
+    position: static;
+    margin-top: 20px;
+  }
+  .travel .imgContainer,
+  .travel .textContainer {
+    width: 100%;
+  }
+  .travel .textContainer {
+    margin: 10px;
+    padding: 0;
+  }
+
+  .hobbies .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .hobbies img {
+    box-shadow: none;
+    width: 100%;
+  }
+  .hobbies .imgContainer {
+    width: 100%;
+    position: static;
+    margin-top: 20px;
+  }
+  .hobbies .imgContainer,
+  .hobbies .textContainer {
+    width: 100%;
+  }
+  .hobbies .textContainer {
+    margin: 10px;
+    padding: 0;
+  }
+  .hobbies .textContainer button {
+    margin-left: 260px;
+  }
+
+  .journey .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .journey img {
+    box-shadow: none;
+    margin: 10px 10px 10px 100px;
+  }
+  .journey .imgContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .journey .textContainer {
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .gallery .wrapper .imgContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .gallery .imgContainer img {
+    margin: 10px;
+  }
+}
