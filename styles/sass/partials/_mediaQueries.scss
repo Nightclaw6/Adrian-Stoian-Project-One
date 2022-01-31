@@ -1,0 +1,372 @@
+@media (max-width: 1200px) {
+  // Blog Page
+  img {
+    box-shadow: none !important;
+  }
+  .blogForm input[type="text"],
+  input[type="email"] {
+    padding: 15px;
+    border: 0;
+    width: 47.5%;
+  }
+  .rightContainer .blogForm {
+    width: 100%;
+  }
+}
+
+@media (max-width: 870px) {
+  // Main Page
+
+  .main .wrapper {
+    position: relative;
+  }
+  .main {
+    height: 50vh;
+  }
+  .main .img1 {
+    max-width: 40%;
+    position: absolute;
+    top: 160%;
+    left: 5%;
+  }
+  .main h1 {
+    position: absolute;
+    top: 320%;
+    left: 50%;
+    font-family: "Oswald";
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 92px;
+    letter-spacing: 1px;
+  }
+  .mainImage img {
+    width: 100%;
+  }
+  .main .img2 {
+    position: absolute;
+    top: 300%;
+    left: 72%;
+  }
+
+  .introduction .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 50%;
+  }
+
+  .sectionNav {
+    margin: 50px 30px;
+    background-color: #f6f6f6;
+  }
+  .travel img {
+    max-width: 80%;
+    box-shadow: 10px 10px #68b0c1, -78px 10px #68b0c1;
+  }
+  .travel .imgContainer {
+    position: absolute;
+    left: 80px;
+    top: -40px;
+  }
+  .travel .textContainer {
+    margin-left: 52%;
+    padding: 0;
+  }
+  .travel h3 {
+    font-family: "Oswald";
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 0;
+  }
+  .hobbies img {
+    max-width: 80%;
+    box-shadow: 10px 10px #b9dde7, 78px 10px #b9dde7;
+  }
+  .hobbies .textContainer {
+    margin-right: 52%;
+    padding: 10px;
+  }
+  .hobbies h3 {
+    margin: 10px 0;
+  }
+  .hobbies .textContainer button {
+    width: 220px;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f38d8d;
+    border: none;
+    padding: 10px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin-left: 180px;
+  }
+  .hobbies .imgContainer {
+    position: absolute;
+    right: 10px;
+    top: 160px;
+  }
+
+  .journey .imgContainer {
+    width: 40%;
+    margin-top: 100px;
+  }
+  .journey img {
+    box-shadow: 18px 18px #227284;
+    margin: 10px;
+  }
+
+  .gallery .wrapper .imgContainer {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 50px;
+  }
+  .gallery img {
+    max-width: 35%;
+    padding: 0 5px;
+  }
+
+  // Blog Page
+
+  .blogForm input[type="text"],
+  .blogForm input[type="email"] {
+    padding: 15px;
+    border: 0;
+    width: 45.5%;
+  }
+  .blogForm input[type="text"] {
+    margin-right: 5px;
+  }
+  .harperPost {
+    padding: 0;
+  }
+  .leftContainer .aboutHarper,
+  .leftContainer .recentPosts {
+    padding: 10px;
+  }
+  .rightContainer .blogForm {
+    width: 100%;
+  }
+
+  // Contact Page
+
+  .contactForm {
+    margin: 5px;
+  }
+  .contactForm input[type="text"],
+  .contactForm input[type="email"] {
+    padding: 5px;
+    border: 0;
+    width: 47.5%;
+  }
+  .contactForm input[type="text"] {
+    margin-right: 5px;
+  }
+  .contactForm textarea {
+    padding: 5px;
+  }
+  .contactInfo .social {
+    margin: 0;
+  }
+  .contactDetails {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  // Blog Section
+
+  .blogPost .wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .rightContainer .harperPost {
+    padding: 10px;
+  }
+
+  .blogForm input[type="text"],
+  input[type="email"] {
+    padding: 15px;
+    border: 0;
+    width: calc(100% -70px);
+  }
+  .aboutHarper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blogPost .leftContainer {
+    width: 100%;
+  }
+
+  .blogPost .rightContainer {
+    width: 100%;
+  }
+  .leftContainer h4 {
+    text-align: center;
+  }
+  .recentPosts ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+  }
+
+  // Contact Section
+
+  .contactInfo .wrapper {
+    flex-direction: column;
+  }
+  .contact .wrapper {
+    position: relative;
+  }
+  .contact h1 {
+    font-size: 65px;
+    position: absolute;
+    left: 60px;
+    bottom: -65px;
+  }
+  .contactInfo .contactForm {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .contactDetails .social {
+    margin: 0;
+    text-align: center;
+  }
+
+  // Main Page
+
+  .main .wrapper {
+    display: flex;
+    flex-direction: column;
+    // position: relative;
+  }
+  .main {
+    height: 100vh;
+  }
+  .main .everyDay {
+    display: block;
+    margin-top: 40px;
+    color: white;
+  }
+  .main .img1 {
+    max-width: 100%;
+    box-shadow: none;
+    top: 155%;
+    left: 0;
+  }
+
+  .main .img2 {
+    display: none;
+  }
+  .main h1 {
+    top: 110px;
+    left: 0;
+    font-family: $headingFont;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  .introduction .textContainer {
+    margin: 10px 0;
+  }
+  .introduction p {
+    margin: 10px 10px;
+  }
+
+  .mainImage img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .sectionNav .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionNav {
+    margin: 20px;
+  }
+
+  .travel .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .travel img {
+    box-shadow: none;
+    width: 100%;
+  }
+  .travel .imgContainer {
+    width: 100%;
+    position: static;
+    margin-top: 20px;
+  }
+  .travel .imgContainer,
+  .travel .textContainer {
+    width: 100%;
+  }
+  .travel .textContainer {
+    margin: 10px;
+    padding: 0;
+  }
+
+  .hobbies .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .hobbies img {
+    box-shadow: none;
+    width: 100%;
+  }
+  .hobbies .imgContainer {
+    width: 100%;
+    position: static;
+    margin-top: 20px;
+  }
+  .hobbies .imgContainer,
+  .hobbies .textContainer {
+    width: 100%;
+  }
+  .hobbies .textContainer {
+    margin: 10px;
+    padding: 0;
+  }
+  .hobbies .textContainer button {
+    margin-left: 260px;
+  }
+
+  .journey .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .journey img {
+    box-shadow: none;
+    margin: 0;
+    width: 100%;
+  }
+  .journey .imgContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .journey .textContainer {
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .gallery .wrapper .imgContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .gallery .imgContainer img {
+    margin: 10px;
+    max-width: 100%;
+  }
+}

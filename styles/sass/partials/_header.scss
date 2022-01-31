@@ -30,9 +30,12 @@
 }
 
 .contact img {
-  max-width: 100%;
+  width: 100%;
   height: 260px;
   margin: 20px 0;
+}
+.contact .image {
+  position: relative;
 }
 
 .contact {
@@ -45,8 +48,8 @@
   position: absolute;
   line-height: 92px;
   letter-spacing: 1px;
-  left: 125px;
-  bottom: -90px;
+  left: 5%;
+  bottom: -20%;
 }
 
 .contactInfo {
