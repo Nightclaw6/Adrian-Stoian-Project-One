@@ -1,8 +1,13 @@
-@media (max-width: 1200px) {
-  // Blog Page
-  img {
-    box-shadow: none !important;
+@media (max-width: 1500px) {
+  // Main Page
+  .main {
+    background-color: #b9dde7;
+    height: 70vh;
+    max-width: 100%;
   }
+
+  // Blog Page
+
   .blogForm input[type="text"],
   input[type="email"] {
     padding: 15px;
@@ -14,81 +19,10 @@
   }
 }
 
-@media (max-width: 870px) {
-  // Main Page
-
-  .main .wrapper {
-    position: relative;
-  }
-  .main {
-    height: 50vh;
-  }
-  .main .img1 {
-    max-width: 40%;
-    position: absolute;
-    top: 160%;
-    left: 5%;
-  }
-  .main h1 {
-    position: absolute;
-    top: 320%;
-    left: 50%;
-    font-family: "Oswald";
-    font-size: 5.5rem;
-    font-weight: bold;
-    line-height: 92px;
-    letter-spacing: 1px;
-  }
-  .mainImage img {
-    width: 100%;
-  }
-  .main .img2 {
-    position: absolute;
-    top: 300%;
-    left: 72%;
-  }
-
-  .introduction .textContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-left: 50%;
-  }
-
-  .sectionNav {
-    margin: 50px 30px;
-    background-color: #f6f6f6;
-  }
-  .travel img {
-    max-width: 80%;
-    box-shadow: 10px 10px #68b0c1, -78px 10px #68b0c1;
-  }
-  .travel .imgContainer {
-    position: absolute;
-    left: 80px;
-    top: -40px;
-  }
-  .travel .textContainer {
-    margin-left: 52%;
-    padding: 0;
-  }
-  .travel h3 {
-    font-family: "Oswald";
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 10px 0;
-  }
+@media (max-width: 1400px) {
+  .travel img,
   .hobbies img {
-    max-width: 80%;
-    box-shadow: 10px 10px #b9dde7, 78px 10px #b9dde7;
-  }
-  .hobbies .textContainer {
-    margin-right: 52%;
-    padding: 10px;
-  }
-  .hobbies h3 {
-    margin: 10px 0;
+    width: 80%;
   }
   .hobbies .textContainer button {
     width: 220px;
@@ -100,172 +34,98 @@
     padding: 10px;
     line-height: 32px;
     letter-spacing: 1px;
-    margin-left: 180px;
+    margin-left: 55%;
   }
-  .hobbies .imgContainer {
-    position: absolute;
-    right: 10px;
-    top: 160px;
-  }
-
   .journey .imgContainer {
     width: 40%;
-    margin-top: 100px;
+    margin-top: 70px;
+  }
+}
+@media (max-width: 1200px) {
+  .hobbies .textContainer button {
+    width: 220px;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f38d8d;
+    border: none;
+    padding: 10px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin-left: 55%;
+  }
+  .travel .textContainer {
+    margin-left: 48%;
+    padding: 27px 55px;
+  }
+  .gallery .wrapper .imgContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 85%;
+    margin: 50px 20px 50px 80px;
+  }
+  .gallery img {
+    width: 35%;
+    height: fit-content;
+  }
+}
+@media (max-width: 1000px) {
+  .main h1 {
+    position: absolute;
+    top: 350px;
+    left: 612px;
+    font-family: "Oswald";
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 92px;
+    letter-spacing: 1px;
+  }
+  .main .img2 {
+    position: absolute;
+    top: 345px;
+    left: 790px;
   }
   .journey img {
     box-shadow: 18px 18px #227284;
-    margin: 10px;
-  }
-
-  .gallery .wrapper .imgContainer {
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    margin: 50px;
-  }
-  .gallery img {
-    max-width: 35%;
-    padding: 0 5px;
-  }
-
-  // Blog Page
-
-  .blogForm input[type="text"],
-  .blogForm input[type="email"] {
-    padding: 15px;
-    border: 0;
-    width: 45.5%;
-  }
-  .blogForm input[type="text"] {
-    margin-right: 5px;
-  }
-  .harperPost {
-    padding: 0;
-  }
-  .leftContainer .aboutHarper,
-  .leftContainer .recentPosts {
-    padding: 10px;
-  }
-  .rightContainer .blogForm {
-    width: 100%;
-  }
-
-  // Contact Page
-
-  .contactForm {
-    margin: 5px;
-  }
-  .contactForm input[type="text"],
-  .contactForm input[type="email"] {
-    padding: 5px;
-    border: 0;
-    width: 47.5%;
-  }
-  .contactForm input[type="text"] {
-    margin-right: 5px;
-  }
-  .contactForm textarea {
-    padding: 5px;
-  }
-  .contactInfo .social {
-    margin: 0;
-  }
-  .contactDetails {
-    padding: 10px;
+    margin-left: 45px;
   }
 }
 
-@media (max-width: 500px) {
-  // Blog Section
-
-  .blogPost .wrapper {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .rightContainer .harperPost {
-    padding: 10px;
-  }
-
-  .blogForm input[type="text"],
-  input[type="email"] {
-    padding: 15px;
-    border: 0;
-    width: calc(100% -70px);
-  }
-  .aboutHarper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .blogPost .leftContainer {
-    width: 100%;
-  }
-
-  .blogPost .rightContainer {
-    width: 100%;
-  }
-  .leftContainer h4 {
-    text-align: center;
-  }
-  .recentPosts ul {
-    text-align: center;
-    padding: 0;
-    list-style: none;
-  }
-
-  // Contact Section
-
-  .contactInfo .wrapper {
-    flex-direction: column;
-  }
-  .contact .wrapper {
-    position: relative;
-  }
-  .contact h1 {
-    font-size: 65px;
-    position: absolute;
-    left: 60px;
-    bottom: -65px;
-  }
-  .contactInfo .contactForm {
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 0;
-  }
-  .contactDetails .social {
-    margin: 0;
-    text-align: center;
-  }
-
+@media (max-width: 870px) {
   // Main Page
-
+  .wrapper {
+    width: 90%;
+  }
   .main .wrapper {
     display: flex;
     flex-direction: column;
-    // position: relative;
+    position: relative;
   }
   .main {
-    height: 100vh;
+    height: 50vh;
   }
   .main .everyDay {
-    display: block;
-    margin-top: 40px;
-    color: white;
+    display: none;
+    /* margin-top: 40px;
+    color: white; */
   }
   .main .img1 {
-    max-width: 100%;
-    box-shadow: none;
-    top: 155%;
-    left: 0;
+    position: absolute;
+    max-width: 37%;
+    box-shadow: 20px 20px white;
+    top: 200%;
+    left: 0%;
   }
 
   .main .img2 {
-    display: none;
+    position: absolute;
+    top: 318%;
+    left: 68%;
   }
   .main h1 {
-    top: 110px;
-    left: 0;
+    top: 400%;
+    left: 47%;
     font-family: $headingFont;
     font-size: 5rem;
     font-weight: bold;
@@ -361,12 +221,227 @@
 
   .gallery .wrapper .imgContainer {
     display: flex;
-    flex-direction: column;
-    margin: 10px;
   }
 
   .gallery .imgContainer img {
     margin: 10px;
     max-width: 100%;
+  }
+
+  // Blog Page
+
+  .blogPost {
+    margin: 60px 20px;
+  }
+  .blogForm input[type="text"],
+  .blogForm input[type="email"] {
+    padding: 15px;
+    border: 0;
+    width: 45.5%;
+  }
+  .blogForm input[type="text"] {
+    margin-right: 5px;
+  }
+  .harperPost {
+    padding: 0;
+  }
+  .blogPost .rightContainer {
+    width: 90%;
+  }
+  .leftContainer .aboutHarper,
+  .leftContainer .recentPosts {
+    padding: 10px;
+  }
+  .rightContainer .blogForm {
+    width: 100%;
+  }
+
+  // Contact Page
+
+  .contactForm {
+    margin: 5px;
+  }
+  .contactForm input[type="text"],
+  .contactForm input[type="email"] {
+    padding: 5px;
+    border: 0;
+    width: 47.5%;
+  }
+  .contactForm input[type="text"] {
+    margin-right: 5px;
+  }
+  .contactForm textarea {
+    padding: 5px;
+  }
+  .contactInfo .social {
+    margin: 0;
+  }
+  .contactDetails {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  // Main Page
+  .main .img2 {
+    display: none;
+  }
+  .main li:nth-child(3) a {
+    font-size: 38px;
+    margin: 10px 10px;
+  }
+  .main li a {
+    color: #171717;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  .main {
+    height: 75vh;
+  }
+  .main .wrapper {
+    max-width: 95%;
+  }
+  .main .img1 {
+    max-width: 90%;
+    box-shadow: none;
+    top: 150%;
+    left: 5%;
+  }
+  .main h1 {
+    top: 103px;
+    left: 102px;
+    font-family: "Oswald";
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+  .main .everyDay {
+    display: block;
+    margin: 30px;
+    color: white;
+    text-align: center;
+  }
+  .hobbies .textContainer button {
+    margin-left: 220px;
+  }
+  .gallery .wrapper .imgContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 85%;
+    margin: 50px 20px 50px 38px;
+  }
+  .gallery img {
+    width: 90%;
+    height: fit-content;
+  }
+
+  // Blog Section
+
+  .blog li:nth-child(3) a {
+    font-size: 38px;
+    margin: 10px 10px;
+  }
+  .blog li a {
+    color: #171717;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  .blogPost .wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .blogPost {
+    margin: 60px 20px;
+  }
+  .blog h1 {
+    font-size: 80px;
+    font-family: "Oswald";
+    font-weight: bold;
+    position: absolute;
+    line-height: 92px;
+    letter-spacing: 1px;
+    left: 5%;
+    bottom: -40%;
+  }
+
+  .rightContainer .harperPost {
+    padding: 10px;
+  }
+
+  .blogForm input[type="text"],
+  input[type="email"] {
+    padding: 15px;
+    border: 0;
+    width: calc(100% -70px);
+  }
+  .aboutHarper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blogPost .leftContainer {
+    width: 100%;
+  }
+
+  .blogPost .rightContainer {
+    width: 100%;
+  }
+  .leftContainer h4 {
+    text-align: center;
+  }
+  .recentPosts ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+  }
+
+  // Contact Section
+
+  .navigation li:nth-child(3) a {
+    font-size: 38px;
+    margin: 10px 10px;
+  }
+  .navigation li a {
+    color: #171717;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  .contactInfo .wrapper {
+    flex-direction: column;
+  }
+  .contact .wrapper {
+    position: relative;
+  }
+  .contact img {
+    width: 100%;
+    height: 260px;
+    margin: 0px;
+  }
+  .contact h1 {
+    font-size: 65px;
+    position: absolute;
+    left: 60px;
+    bottom: -80px;
+  }
+  .contactInfo .contactForm {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .contactDetails .social {
+    margin: 0;
+    text-align: center;
   }
 }

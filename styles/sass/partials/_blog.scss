@@ -28,6 +28,11 @@
   margin: 0 20px;
   cursor: pointer;
 }
+.blog li a:hover,
+.blog li a:focus {
+  color: white;
+  text-decoration: $quaternary underline;
+}
 .blog .image {
   position: relative;
 }
@@ -192,6 +197,10 @@ button {
   font-weight: bold;
   background-color: $secondary;
   border: none;
+}
+.blogForm button:hover,
+.blogForm button:focus {
+  color: white;
 }
 
 .blogForm .formDetails {

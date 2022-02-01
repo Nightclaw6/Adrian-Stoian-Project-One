@@ -15,21 +15,22 @@
 <body>
     <header class="main">
         <div class="wrapper">
-            <nav>
+            <div>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#">Harper</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#">HARPER</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
                 </ul>
-            </nav>
+            </div>
             <h2 class="everyDay">EVERYDAY LIFE WITH</h2>
             <h1>HARPER</h1>
-            <img class="img1" src="./assets/home-image-1.jpg" alt="Girl with baloons">;
+            <img class="img1" src="./assets/home-image-1.jpg" alt="Girl with baloons">
             <img class="img2" src="./assets/circle-text.png" alt="Circled text">
         </div>
     </header>
+    
     <section class="introduction">
         <div class="wrapper">
             <div class="textContainer">
@@ -53,7 +54,9 @@
                         <i class="fas fa-image fa-stack-1x"></i>
                     </span>
                     <div class="navText">
-                        <h3>PHOTOS</h3>
+                        <a href="#gallery">
+                            <h3>PHOTOS</h3>
+                        </a>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
                     </div> 
                 </div>
@@ -63,7 +66,9 @@
                         <i class="fa fa-tv fa-stack-1x"></i>
                     </span>
                     <div class="navText">
-                        <h3>BLOG</h3>
+                        <a href="./blog.html">
+                            <h3>BLOG</h3>
+                        </a>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
                     </div>
                 </div>
@@ -75,7 +80,9 @@
                         <i class="fas fa-user fa-stack-1x"></i>
                     </span>
                     <div class="navText">
-                        <h3>ABOUT</h3>
+                        <a href="#">
+                            <h3>ABOUT</h3>
+                        </a>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
                     </div>
                 </div>
@@ -85,7 +92,9 @@
                         <i class="fas fa-phone fa-stack-1x"></i>
                     </span>
                     <div class="navText">
-                        <h3>CONTACT ME</h3>
+                        <a href="./contact.html">
+                            <h3>CONTACT ME</h3>
+                        </a>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi atque libero consequatur officiis. Minima aliquid dignissimos tempore expedita voluptatibus.</p>
                     </div>
                 </div>
@@ -130,7 +139,7 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <div class="wrapper">
             <div class="imgContainer">
                 <img src="./assets/home-image-6.jpg" alt="">

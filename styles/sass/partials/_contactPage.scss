@@ -1,3 +1,4 @@
+// Contact Page
 .contact nav {
   background-color: $quinary;
   max-width: 100%;
@@ -27,6 +28,11 @@
   font-weight: bold;
   text-decoration: none;
   margin: 0 20px;
+}
+.navigation li a:hover,
+.navigation li a:focus {
+  color: white;
+  text-decoration: $quaternary underline;
 }
 
 .contact img {
@@ -124,15 +130,11 @@ button {
   background-color: $secondary;
   border: none;
 }
+.contactForm button:hover,
+.contactForm button:focus {
+  color: white;
+}
 
 body {
   background-color: $senary;
-}
-
-footer {
-  text-align: center;
-  background-color: $primary;
-  color: $senary;
-  margin-top: 10px;
-  padding: 3px;
 }

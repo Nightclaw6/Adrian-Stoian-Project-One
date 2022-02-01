@@ -238,6 +238,13 @@ input::-moz-focus-inner {
   margin: 0 20px;
 }
 
+.main li a:hover,
+.main li a:focus {
+  color: white;
+  -webkit-text-decoration: #227284 underline;
+          text-decoration: #227284 underline;
+}
+
 .main {
   background-color: #b9dde7;
   height: 70vh;
@@ -277,6 +284,319 @@ input::-moz-focus-inner {
   left: 940px;
 }
 
+.mainImage img {
+  width: 100%;
+}
+
+.introduction .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 50px 30px 80px 653px;
+}
+
+.introduction h2 {
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 32px;
+}
+
+.introduction button {
+  width: 220px;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f38d8d;
+  border: none;
+  padding: 10px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.introduction button:hover,
+.introduction button:focus {
+  color: white;
+}
+
+.option1,
+.option2,
+.option3,
+.option4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navLeft .navText a,
+.navRight .navText a {
+  text-decoration: none;
+}
+
+.sectionNav .navText h3:hover {
+  color: #f38d8d;
+  -webkit-text-decoration: #f38d8d underline;
+          text-decoration: #f38d8d underline;
+}
+
+.sectionNav .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navText {
+  margin-left: 20px;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.fa.fa-circle-thin:before {
+  content: "";
+  margin-left: -10px;
+  background-color: #b9dde7;
+  border-radius: 50%;
+  color: #b9dde7;
+}
+
+.navText h3 {
+  font-family: "Oswald";
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.navText p {
+  font-family: "Cabin";
+  font-size: 20px;
+  font-weight: normal;
+}
+
+span {
+  margin-top: 35px;
+}
+
+.sectionNav {
+  margin: 100px;
+  background-color: #f6f6f6;
+}
+
+.travel .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  position: relative;
+}
+
+.travel h3 {
+  font-family: "Oswald";
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.travel .textContainer p {
+  font-family: "Cabin";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.travel .imgContainer {
+  position: absolute;
+  left: 105px;
+  top: -40px;
+}
+
+.travel .textContainer {
+  margin-left: 48%;
+  padding: 100px;
+}
+
+.travel img {
+  max-width: 100%;
+  -webkit-box-shadow: 20px 20px #68b0c1, -120px 20px #68b0c1;
+          box-shadow: 20px 20px #68b0c1, -120px 20px #68b0c1;
+}
+
+.travel .imgContainer,
+.travel .textContainer {
+  width: 50%;
+}
+
+.travel .textContainer button {
+  width: 220px;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f38d8d;
+  border: none;
+  padding: 10px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.travel button:hover,
+.travel button:focus {
+  color: white;
+}
+
+.hobbies .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  position: relative;
+}
+
+.hobbies h3 {
+  font-family: "Oswald";
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hobbies .textContainer p {
+  font-family: "Cabin";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.hobbies .imgContainer {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+}
+
+.hobbies .textContainer {
+  margin-right: 48%;
+  padding: 0 100px 100px 100px;
+}
+
+.hobbies img {
+  max-width: 100%;
+  -webkit-box-shadow: 20px 20px #b9dde7, 120px 20px #b9dde7;
+          box-shadow: 20px 20px #b9dde7, 120px 20px #b9dde7;
+}
+
+.hobbies .imgContainer,
+.hobbies .textContainer {
+  width: 50%;
+}
+
+.hobbies .textContainer button {
+  width: 220px;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f38d8d;
+  border: none;
+  padding: 10px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  margin-left: 325px;
+}
+
+.hobbies button:hover,
+.hobbiesbutton:focus {
+  color: white;
+}
+
+.journey .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.journey .imgContainer {
+  width: 40%;
+  margin-top: 150px;
+}
+
+.journey img {
+  -webkit-box-shadow: 18px 18px #227284;
+          box-shadow: 18px 18px #227284;
+  margin-left: 120px;
+}
+
+.journey .textContainer {
+  width: 60%;
+  margin: 95px 100px 10 px 50px;
+}
+
+.journey h3 {
+  font-family: "Oswald";
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.journey .textContainer p {
+  font-family: "Cabin";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.journey .textContainer button {
+  width: 220px;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f38d8d;
+  border: none;
+  padding: 10px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.journey button:hover,
+.journey button:focus {
+  color: white;
+}
+
+.gallery .wrapper .imgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 100px;
+}
+
+.gallery img {
+  padding: 0 20px;
+}
+
+.gallery {
+  background-color: white;
+}
+
 .contact nav {
   background-color: #b9dde7;
   max-width: 100%;
@@ -313,6 +633,13 @@ input::-moz-focus-inner {
   font-weight: bold;
   text-decoration: none;
   margin: 0 20px;
+}
+
+.navigation li a:hover,
+.navigation li a:focus {
+  color: white;
+  -webkit-text-decoration: #227284 underline;
+          text-decoration: #227284 underline;
 }
 
 .contact img {
@@ -426,294 +753,13 @@ button {
   border: none;
 }
 
+.contactForm button:hover,
+.contactForm button:focus {
+  color: white;
+}
+
 body {
   background-color: #f6f6f6;
-}
-
-footer {
-  text-align: center;
-  background-color: #171717;
-  color: #f6f6f6;
-  margin-top: 10px;
-  padding: 3px;
-}
-
-.introduction .textContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin: 50px 30px 80px 653px;
-}
-
-.introduction h2 {
-  font-family: "Oswald";
-  font-weight: bold;
-  font-size: 42px;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-
-.introduction p {
-  margin-top: 0;
-  margin-bottom: 30px;
-  line-height: 32px;
-}
-
-.introduction button {
-  width: 220px;
-  font-family: "Oswald";
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #f38d8d;
-  border: none;
-  padding: 10px;
-  line-height: 32px;
-  letter-spacing: 1px;
-}
-
-.option1,
-.option2,
-.option3,
-.option4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.sectionNav .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.navText {
-  margin-left: 20px;
-}
-
-.fa-stack-1x,
-.fa-stack-2x {
-  left: 0;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
-
-.fa.fa-circle-thin:before {
-  content: "";
-  margin-left: -10px;
-  background-color: #b9dde7;
-  border-radius: 50%;
-  color: #b9dde7;
-}
-
-.navText h3 {
-  font-family: "Oswald";
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.navText p {
-  font-family: "Cabin";
-  font-size: 20px;
-  font-weight: normal;
-}
-
-span {
-  margin-top: 35px;
-}
-
-.sectionNav {
-  margin: 100px;
-  background-color: #f6f6f6;
-}
-
-.travel .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: white;
-  position: relative;
-}
-
-.travel h3 {
-  font-family: "Oswald";
-  font-size: 32px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.travel .textContainer p {
-  font-family: "Cabin";
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 32px;
-  letter-spacing: 0px;
-}
-
-.travel .imgContainer {
-  position: absolute;
-  left: 105px;
-  top: -40px;
-}
-
-.travel .textContainer {
-  margin-left: 48%;
-  padding: 100px;
-}
-
-.travel img {
-  max-width: 100%;
-  -webkit-box-shadow: 20px 20px #68b0c1, -120px 20px #68b0c1;
-          box-shadow: 20px 20px #68b0c1, -120px 20px #68b0c1;
-}
-
-.travel .imgContainer,
-.travel .textContainer {
-  width: 50%;
-}
-
-.travel .textContainer button {
-  width: 220px;
-  font-family: "Oswald";
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #f38d8d;
-  border: none;
-  padding: 10px;
-  line-height: 32px;
-  letter-spacing: 1px;
-}
-
-.hobbies .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: white;
-  position: relative;
-}
-
-.hobbies h3 {
-  font-family: "Oswald";
-  font-size: 32px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.hobbies .textContainer p {
-  font-family: "Cabin";
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 32px;
-  letter-spacing: 0px;
-}
-
-.hobbies .imgContainer {
-  position: absolute;
-  right: 10px;
-  top: 40px;
-}
-
-.hobbies .textContainer {
-  margin-right: 48%;
-  padding: 0 100px 100px 100px;
-}
-
-.hobbies img {
-  max-width: 100%;
-  -webkit-box-shadow: 20px 20px #b9dde7, 120px 20px #b9dde7;
-          box-shadow: 20px 20px #b9dde7, 120px 20px #b9dde7;
-}
-
-.hobbies .imgContainer,
-.hobbies .textContainer {
-  width: 50%;
-}
-
-.hobbies .textContainer button {
-  width: 220px;
-  font-family: "Oswald";
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #f38d8d;
-  border: none;
-  padding: 10px;
-  line-height: 32px;
-  letter-spacing: 1px;
-  margin-left: 325px;
-}
-
-.journey .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.journey .imgContainer {
-  width: 40%;
-  margin-top: 150px;
-}
-
-.journey img {
-  -webkit-box-shadow: 18px 18px #227284;
-          box-shadow: 18px 18px #227284;
-  margin-left: 120px;
-}
-
-.journey .textContainer {
-  width: 60%;
-  margin: 95px 100px 10 px 50px;
-}
-
-.journey h3 {
-  font-family: "Oswald";
-  font-size: 42px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.journey .textContainer p {
-  font-family: "Cabin";
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 32px;
-  letter-spacing: 0px;
-}
-
-.journey .textContainer button {
-  width: 220px;
-  font-family: "Oswald";
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #f38d8d;
-  border: none;
-  padding: 10px;
-  line-height: 32px;
-  letter-spacing: 1px;
-}
-
-.gallery .wrapper .imgContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin: 100px;
-}
-
-.gallery img {
-  padding: 0 20px;
-}
-
-.gallery {
-  background-color: white;
 }
 
 .blog nav {
@@ -753,6 +799,13 @@ span {
   text-decoration: none;
   margin: 0 20px;
   cursor: pointer;
+}
+
+.blog li a:hover,
+.blog li a:focus {
+  color: white;
+  -webkit-text-decoration: #227284 underline;
+          text-decoration: #227284 underline;
 }
 
 .blog .image {
@@ -945,14 +998,28 @@ button {
   border: none;
 }
 
+.blogForm button:hover,
+.blogForm button:focus {
+  color: white;
+}
+
 .blogForm .formDetails {
   margin-top: 20px;
 }
 
-@media (max-width: 1200px) {
-  img {
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+footer {
+  text-align: center;
+  background-color: #171717;
+  color: #f6f6f6;
+  margin-top: 10px;
+  padding: 3px;
+}
+
+@media (max-width: 1500px) {
+  .main {
+    background-color: #b9dde7;
+    height: 70vh;
+    max-width: 100%;
   }
 
   .blogForm input[type=text],
@@ -966,100 +1033,10 @@ input[type=email] {
     width: 100%;
   }
 }
-@media (max-width: 870px) {
-  .main .wrapper {
-    position: relative;
-  }
-
-  .main {
-    height: 50vh;
-  }
-
-  .main .img1 {
-    max-width: 40%;
-    position: absolute;
-    top: 160%;
-    left: 5%;
-  }
-
-  .main h1 {
-    position: absolute;
-    top: 320%;
-    left: 50%;
-    font-family: "Oswald";
-    font-size: 5.5rem;
-    font-weight: bold;
-    line-height: 92px;
-    letter-spacing: 1px;
-  }
-
-  .mainImage img {
-    width: 100%;
-  }
-
-  .main .img2 {
-    position: absolute;
-    top: 300%;
-    left: 72%;
-  }
-
-  .introduction .textContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    margin-left: 50%;
-  }
-
-  .sectionNav {
-    margin: 50px 30px;
-    background-color: #f6f6f6;
-  }
-
-  .travel img {
-    max-width: 80%;
-    -webkit-box-shadow: 10px 10px #68b0c1, -78px 10px #68b0c1;
-            box-shadow: 10px 10px #68b0c1, -78px 10px #68b0c1;
-  }
-
-  .travel .imgContainer {
-    position: absolute;
-    left: 80px;
-    top: -40px;
-  }
-
-  .travel .textContainer {
-    margin-left: 52%;
-    padding: 0;
-  }
-
-  .travel h3 {
-    font-family: "Oswald";
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 10px 0;
-  }
-
-  .hobbies img {
-    max-width: 80%;
-    -webkit-box-shadow: 10px 10px #b9dde7, 78px 10px #b9dde7;
-            box-shadow: 10px 10px #b9dde7, 78px 10px #b9dde7;
-  }
-
-  .hobbies .textContainer {
-    margin-right: 52%;
-    padding: 10px;
-  }
-
-  .hobbies h3 {
-    margin: 10px 0;
+@media (max-width: 1400px) {
+  .travel img,
+.hobbies img {
+    width: 80%;
   }
 
   .hobbies .textContainer button {
@@ -1072,173 +1049,79 @@ input[type=email] {
     padding: 10px;
     line-height: 32px;
     letter-spacing: 1px;
-    margin-left: 180px;
-  }
-
-  .hobbies .imgContainer {
-    position: absolute;
-    right: 10px;
-    top: 160px;
+    margin-left: 55%;
   }
 
   .journey .imgContainer {
     width: 40%;
-    margin-top: 100px;
+    margin-top: 70px;
+  }
+}
+@media (max-width: 1200px) {
+  .hobbies .textContainer button {
+    width: 220px;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f38d8d;
+    border: none;
+    padding: 10px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin-left: 55%;
   }
 
-  .journey img {
-    -webkit-box-shadow: 18px 18px #227284;
-            box-shadow: 18px 18px #227284;
-    margin: 10px;
+  .travel .textContainer {
+    margin-left: 48%;
+    padding: 27px 55px;
   }
 
   .gallery .wrapper .imgContainer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    text-align: center;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    margin: 50px;
+    margin: 10px;
+    width: 85%;
+    margin: 50px 20px 50px 80px;
   }
 
   .gallery img {
-    max-width: 35%;
-    padding: 0 5px;
-  }
-
-  .blogForm input[type=text],
-.blogForm input[type=email] {
-    padding: 15px;
-    border: 0;
-    width: 45.5%;
-  }
-
-  .blogForm input[type=text] {
-    margin-right: 5px;
-  }
-
-  .harperPost {
-    padding: 0;
-  }
-
-  .leftContainer .aboutHarper,
-.leftContainer .recentPosts {
-    padding: 10px;
-  }
-
-  .rightContainer .blogForm {
-    width: 100%;
-  }
-
-  .contactForm {
-    margin: 5px;
-  }
-
-  .contactForm input[type=text],
-.contactForm input[type=email] {
-    padding: 5px;
-    border: 0;
-    width: 47.5%;
-  }
-
-  .contactForm input[type=text] {
-    margin-right: 5px;
-  }
-
-  .contactForm textarea {
-    padding: 5px;
-  }
-
-  .contactInfo .social {
-    margin: 0;
-  }
-
-  .contactDetails {
-    padding: 10px;
+    width: 35%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
-@media (max-width: 500px) {
-  .blogPost .wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-
-  .rightContainer .harperPost {
-    padding: 10px;
-  }
-
-  .blogForm input[type=text],
-input[type=email] {
-    padding: 15px;
-    border: 0;
-    width: calc(100% -70px);
-  }
-
-  .aboutHarper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .blogPost .leftContainer {
-    width: 100%;
-  }
-
-  .blogPost .rightContainer {
-    width: 100%;
-  }
-
-  .leftContainer h4 {
-    text-align: center;
-  }
-
-  .recentPosts ul {
-    text-align: center;
-    padding: 0;
-    list-style: none;
-  }
-
-  .contactInfo .wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  .contact .wrapper {
-    position: relative;
-  }
-
-  .contact h1 {
-    font-size: 65px;
+@media (max-width: 1000px) {
+  .main h1 {
     position: absolute;
-    left: 60px;
-    bottom: -65px;
+    top: 350px;
+    left: 612px;
+    font-family: "Oswald";
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 92px;
+    letter-spacing: 1px;
   }
 
-  .contactInfo .contactForm {
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 0;
+  .main .img2 {
+    position: absolute;
+    top: 345px;
+    left: 790px;
   }
 
-  .contactDetails .social {
-    margin: 0;
-    text-align: center;
+  .journey img {
+    -webkit-box-shadow: 18px 18px #227284;
+            box-shadow: 18px 18px #227284;
+    margin-left: 45px;
+  }
+}
+@media (max-width: 870px) {
+  .wrapper {
+    width: 90%;
   }
 
   .main .wrapper {
@@ -1249,33 +1132,37 @@ input[type=email] {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    position: relative;
   }
 
   .main {
-    height: 100vh;
+    height: 50vh;
   }
 
   .main .everyDay {
-    display: block;
-    margin-top: 40px;
-    color: white;
+    display: none;
+    /* margin-top: 40px;
+    color: white; */
   }
 
   .main .img1 {
-    max-width: 100%;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    top: 155%;
-    left: 0;
+    position: absolute;
+    max-width: 37%;
+    -webkit-box-shadow: 20px 20px white;
+            box-shadow: 20px 20px white;
+    top: 200%;
+    left: 0%;
   }
 
   .main .img2 {
-    display: none;
+    position: absolute;
+    top: 318%;
+    left: 68%;
   }
 
   .main h1 {
-    top: 110px;
-    left: 0;
+    top: 400%;
+    left: 47%;
     font-family: "Oswald";
     font-size: 5rem;
     font-weight: bold;
@@ -1410,15 +1297,275 @@ input[type=email] {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 10px;
   }
 
   .gallery .imgContainer img {
     margin: 10px;
     max-width: 100%;
+  }
+
+  .blogPost {
+    margin: 60px 20px;
+  }
+
+  .blogForm input[type=text],
+.blogForm input[type=email] {
+    padding: 15px;
+    border: 0;
+    width: 45.5%;
+  }
+
+  .blogForm input[type=text] {
+    margin-right: 5px;
+  }
+
+  .harperPost {
+    padding: 0;
+  }
+
+  .blogPost .rightContainer {
+    width: 90%;
+  }
+
+  .leftContainer .aboutHarper,
+.leftContainer .recentPosts {
+    padding: 10px;
+  }
+
+  .rightContainer .blogForm {
+    width: 100%;
+  }
+
+  .contactForm {
+    margin: 5px;
+  }
+
+  .contactForm input[type=text],
+.contactForm input[type=email] {
+    padding: 5px;
+    border: 0;
+    width: 47.5%;
+  }
+
+  .contactForm input[type=text] {
+    margin-right: 5px;
+  }
+
+  .contactForm textarea {
+    padding: 5px;
+  }
+
+  .contactInfo .social {
+    margin: 0;
+  }
+
+  .contactDetails {
+    padding: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .main .img2 {
+    display: none;
+  }
+
+  .main li:nth-child(3) a {
+    font-size: 38px;
+    margin: 10px 10px;
+  }
+
+  .main li a {
+    color: #171717;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  .main {
+    height: 75vh;
+  }
+
+  .main .wrapper {
+    max-width: 95%;
+  }
+
+  .main .img1 {
+    max-width: 90%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    top: 150%;
+    left: 5%;
+  }
+
+  .main h1 {
+    top: 103px;
+    left: 102px;
+    font-family: "Oswald";
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  .main .everyDay {
+    display: block;
+    margin: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  .hobbies .textContainer button {
+    margin-left: 220px;
+  }
+
+  .gallery .wrapper .imgContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 10px;
+    width: 85%;
+    margin: 50px 20px 50px 38px;
+  }
+
+  .gallery img {
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .blog li:nth-child(3) a {
+    font-size: 38px;
+    margin: 10px 10px;
+  }
+
+  .blog li a {
+    color: #171717;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  .blogPost .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .blogPost {
+    margin: 60px 20px;
+  }
+
+  .blog h1 {
+    font-size: 80px;
+    font-family: "Oswald";
+    font-weight: bold;
+    position: absolute;
+    line-height: 92px;
+    letter-spacing: 1px;
+    left: 5%;
+    bottom: -40%;
+  }
+
+  .rightContainer .harperPost {
+    padding: 10px;
+  }
+
+  .blogForm input[type=text],
+input[type=email] {
+    padding: 15px;
+    border: 0;
+    width: calc(100% -70px);
+  }
+
+  .aboutHarper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .blogPost .leftContainer {
+    width: 100%;
+  }
+
+  .blogPost .rightContainer {
+    width: 100%;
+  }
+
+  .leftContainer h4 {
+    text-align: center;
+  }
+
+  .recentPosts ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+  }
+
+  .navigation li:nth-child(3) a {
+    font-size: 38px;
+    margin: 10px 10px;
+  }
+
+  .navigation li a {
+    color: #171717;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  .contactInfo .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .contact .wrapper {
+    position: relative;
+  }
+
+  .contact img {
+    width: 100%;
+    height: 260px;
+    margin: 0px;
+  }
+
+  .contact h1 {
+    font-size: 65px;
+    position: absolute;
+    left: 60px;
+    bottom: -80px;
+  }
+
+  .contactInfo .contactForm {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .contactDetails .social {
+    margin: 0;
+    text-align: center;
   }
 }
