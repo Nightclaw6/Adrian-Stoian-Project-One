@@ -1,5 +1,5 @@
 // Main Section
-.main nav {
+/* .main nav {
   background-color: $quinary;
   max-width: 100%;
 }
@@ -33,8 +33,53 @@
 .main li a:focus {
   color: white;
   text-decoration: $quaternary underline;
-}
+} */
 
+// Navbar + Hamburger Menu
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.navbar a span {
+  margin: 0;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+}
+.navbar-links li a:nth-child(4) {
+  margin-bottom: 50px;
+}
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+// ****************************************************
 .main {
   background-color: $quinary;
   height: 70vh;
