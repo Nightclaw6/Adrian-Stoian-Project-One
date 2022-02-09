@@ -13,40 +13,41 @@
     <title>Harper</title>
 </head>
 <body>
-    <header class="main">
-        <div class="wrapper">
-            <!-- <div>
+    <nav class="topNav">
+        <div class="navBar">
+            <div class="desktopNav">
                 <ul>
-                    <li><a href="./index.html">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="./index.html" class="current">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
                     <li><a href="#">HARPER</a></li>
                     <li><a href="./blog.html">BLOG</a></li>
                     <li><a href="./contact.html">CONTACT</a></li>
                 </ul>
-            </div> -->
-            <!-- Navbar + Hamburger Menu -->
-            <nav class="navbar">
-                <a href="#" class="toggle-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a> 
-                <div class="navbar-links">
-                    <ul>
-                        <li><a href="./index.html">HOME</a></li>
-                        <li><a href="#about">ABOUT</a></li>
-                        <!-- <li><a href="#">HARPER</a></li> -->
-                        <li><a href="./blog.html">BLOG</a></li>
-                        <li><a href="./contact.html">CONTACT</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-
-            <h2 class="everyDay">EVERYDAY LIFE WITH</h2>
-            <h1>HARPER</h1>
-            <img class="img1" src="./assets/home-image-1.jpg" alt="Girl with baloons">
-            <img class="img2" src="./assets/circle-text.png" alt="Circled text">
+            </div>
+    
+            <div class="mobileNav">
+                <h1>Harper</h1>
+                <input type="checkbox" id="toggle" name="toggle" />
+                <label for="toggle"><i class="fa fa-bars"></i></label>
+                <ul class="mainMenu">
+                    <li><a class="navLink" href="./index.html">Home</a></li>
+                    <li><a class="navLink" href="#">About</a></li>
+                    <li><a class="navLink" href="./blog.html">Blog</a></li>
+                    <li><a class="navLink" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="header1">
+        <div class="wrapper">
+            <div class="imgContainer">
+                <img src="./assets/home-image-1.jpg"
+                    alt="Girl with baloons">
+            </div>
+            <div>
+                <h2 class="header1">HARPER<img src="./assets/circle-text.png" aria-hidden="true"></h2>
+            </div>
         </div>
     </header>
     
@@ -158,16 +159,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="gallery" id="gallery">
-        <div class="wrapper">
-            <div class="imgContainer">
-                <img src="./assets/home-image-6.jpg" alt="">
-                <img src="./assets/home-image-7.jpg" alt="">
-                <img src="./assets/home-image-8.jpg" alt="">
-            </div>
-        </div>
-    </section> -->
-    
+        
     <!-- Carousel -->
     <section class="carouselTrack">
         <div class="wrapper">
@@ -207,6 +199,5 @@
     </footer>
 
     <script src="carousel.js"></script>
-    <script src="menu.js"></script>
 </body>
 </html>

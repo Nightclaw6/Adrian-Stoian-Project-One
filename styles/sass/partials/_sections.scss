@@ -1,123 +1,125 @@
-// Main Section
-/* .main nav {
-  background-color: $quinary;
-  max-width: 100%;
-}
-
-.main ul {
+nav.topNav {
+  background-color: #b9dde7;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  color: $primary;
-  margin: 0 150px;
-  padding: 0;
+  justify-content: center;
 }
 
-.main li {
-  list-style-type: none;
+nav.topNav a.current {
+  color: #f6f6f6;
 }
-
-.main li:nth-child(3) a {
-  font-size: 42px;
-  margin: 10px 30px;
-}
-.main li a {
-  color: $primary;
-  font-family: $headingFont;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 20px;
-}
-.main li a:hover,
-.main li a:focus {
-  color: white;
-  text-decoration: $quaternary underline;
-} */
-
-// Navbar + Hamburger Menu
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: black;
-}
-.navbar a span {
-  margin: 0;
-}
-.navbar-links ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.navbar-links li {
+nav.topNav li {
   list-style: none;
 }
-.navbar-links li a {
-  text-decoration: none;
-  color: black;
-  padding: 1rem;
-  display: block;
-}
-.navbar-links li a:nth-child(4) {
-  margin-bottom: 50px;
-}
-.toggle-button {
-  position: absolute;
-  top: 0.75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-.toggle-button .bar {
-  height: 3px;
+nav.topNav .navBar .desktopNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
-  background-color: black;
-  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
-// ****************************************************
-.main {
-  background-color: $quinary;
-  height: 70vh;
-  max-width: 100%;
+nav.topNav .navBar .desktopNav ul {
+  display: flex;
+}
+nav.topNav .navBar .desktopNav ul li {
+  padding: 0 20px;
+}
+nav.topNav .navBar .desktopNav ul li a {
+  line-height: 1.45rem;
+  text-decoration: none;
+}
+nav.topNav .navBar .desktopNav ul li a:hover,
+nav.topNav .navBar .desktopNav ul li a:focus {
+  text-decoration: underline;
+  color: $secondary;
+}
+nav.topNav .navBar .desktopNav ul li:nth-child(3) a {
+  font-size: 2.1rem;
+  margin: 10px 30px;
+}
+nav.topNav .navBar .desktopNav h1 {
+  padding: 10px 25px;
 }
 
-.main .wrapper {
+/* Mobile Navigation*/
+
+.mobileNav {
+  display: none;
+}
+
+nav.topNav .navBar {
+  width: 100%;
+}
+
+input[type="checkbox"]:checked ~ ul.mainMenu {
+  height: auto;
+}
+
+input[type="checkbox"] {
+  position: fixed;
+  opacity: 0;
+}
+input[type="checkbox"]:focus ~ label {
+  background-color: #f38d8dab;
+}
+
+label[for="toggle"] {
+  position: fixed;
+  top: 24px;
+  right: 25px;
+  color: white;
+  opacity: 0.9;
+  z-index: 20;
+  padding: 8px 15px;
+  background-color: #b9dde7ab;
+  border-radius: 5px;
+}
+label[for="toggle"] .fa-bars {
+  font-size: clamp(2rem, 12vw, 3rem);
+}
+label[for="toggle"]:hover,
+label[for="toggle"]:focus {
+  background-color: #ee1414ab;
+}
+
+// Header
+
+header.header1 {
+  background-color: #b9dde7;
+}
+header.header1 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
   position: relative;
 }
-.main .everyDay {
-  display: none;
+header.header1 .wrapper .imgContainer {
+  z-index: 1;
+  width: 40%;
+  position: relative;
+  top: 60px;
 }
-.main h1 {
-  position: absolute;
-  top: 350px;
-  left: 650px;
-  font-family: $headingFont;
-  font-size: 7.5rem;
-  font-weight: bold;
-  line-height: 92px;
-  letter-spacing: 1px;
-}
-
-.main .img1 {
-  position: absolute;
-  top: 200%;
-  left: 5%;
+header.header1 .wrapper .imgContainer img {
+  margin-bottom: -5px;
   box-shadow: 20px 20px white;
 }
-.main .img2 {
+header.header1 .wrapper h2 {
+  z-index: 2;
+  position: relative;
+  padding: 30px 35px 30px 100px;
+}
+header.header1 .wrapper h2 img {
+  width: clamp(4rem, 12vw, 8rem);
   position: absolute;
-  top: 345px;
-  left: 940px;
+  top: 6%;
+  right: -2%;
 }
-.mainImage img {
-  width: 100%;
-}
+
 // Who's Harper
+
 .introduction .textContainer {
   display: flex;
   flex-direction: column;
@@ -156,6 +158,7 @@
 }
 
 // Nav Options
+
 .option1,
 .option2,
 .option3,
@@ -389,15 +392,15 @@ span {
 
 // Gallery Section
 
-.gallery .wrapper .imgContainer {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 100px;
-}
-.gallery img {
-  padding: 0 20px;
-}
+// .gallery .wrapper .imgContainer {
+//   display: flex;
+//   justify-content: space-evenly;
+//   margin: 100px;
+// }
+// .gallery img {
+//   padding: 0 20px;
+// }
 
-.gallery {
-  background-color: white;
-}
+// .gallery {
+//   background-color: white;
+// }

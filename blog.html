@@ -13,24 +13,37 @@
     <title>Blog</title>
 </head>
 <body>
-    <header class="blog">
-        <div class="wrapper">
-            <nav>
+    <nav class="topNav">
+        <div class="navBar">
+            <div class="desktopNav">
                 <ul>
-                    <li><a href="/index.html">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="/index.html">HARPER</a></li>
-                    <li><a href="/blog.html">BLOG</a></li>
-                    <li><a href="/contact.html">CONTACT</a></li>
+                    <li><a href="./index.html" class="current">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">HARPER</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
                 </ul>
-            </nav>
-            <div class="image">
-                <img src="./assets/blog-image-1.jpg" alt="Cherry tree">
-                <h1>BLOG</h1>
             </div>
-            
+    
+            <div class="mobileNav">
+                <h1>Harper</h1>
+                <input type="checkbox" id="toggle" name="toggle" />
+                <label for="toggle"><i class="fa fa-bars"></i></label>
+                <ul class="mainMenu">
+                    <li><a class="navLink" href="./index.html">Home</a></li>
+                    <li><a class="navLink" href="#">About</a></li>
+                    <li><a class="navLink" href="./blog.html">Blog</a></li>
+                    <li><a class="navLink" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </header>
+    </nav>
+    
+    <div class="image">
+        <img src="./assets/blog-image-1.jpg" alt="Cherry tree">
+        <h1>BLOG</h1>
+    </div>
+     
     <div class="blogPost">
         <div class="wrapper">
             <div class="leftContainer">
@@ -85,7 +98,7 @@
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque dicta laboriosam distinctio voluptate in ea ratione modi maxime dolore dolorum dolor officiis magni voluptatibus recusandae alias suscipit ipsa nam,expedita pariatur cupiditate error tempore facere quae! Praesentium modi neque ut!</p>
                     </div>
                 </div>
-                <form action="#" method="POST" class="blogForm" name="blogForm">
+                <form action="" method="GET" class="blogForm" name="blogForm">
                     <div class="formDetails">
                         <label for="name" class="sr-only">Name</label>
                         <input type="text" id="name" placeholder="Name">
@@ -97,7 +110,7 @@
                     <label for="message" class="sr-only">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Comment"></textarea>
                 
-                    <button>Post Comment</button>
+                    <button id="btn-blog">Post Comment</button>
                 </form>
                 
             </div>
@@ -106,5 +119,6 @@
     <footer>
         <p>Copyright &copy; 2018 HackerYou</p>
     </footer>
+    <script src="Blog_valid.js"></script>
 </body>
 </html>

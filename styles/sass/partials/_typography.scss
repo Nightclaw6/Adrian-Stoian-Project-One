@@ -11,9 +11,15 @@ body {
 h1,
 h2,
 h3,
-h4 {
-  font-family: $headingFont;
-  font-weight: bold;
-  color: $primary;
-  margin: 0;
+h4,
+a,
+button {
+  font-family: $headingFont, sans-serif;
+  color: #171717;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+h2.header1 {
+  font-size: clamp(3rem, 10vw, 7rem);
 }
